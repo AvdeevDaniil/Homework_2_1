@@ -44,6 +44,9 @@ int main()
     {
         std::cout << "Не удалось открыть файл для вывода" << std::endl;
 
+        delete[] firstArr;
+        delete[] secondArr;
+
         return 1;
     }
 
